@@ -1,0 +1,173 @@
+.article-inner h1{
+	display:block;
+	width: 80%;
+	overflow: visible;
+	text-align:center;
+}
+
+.article-header p{
+	text-align:center;
+}
+.article-body{
+	width: 800px;
+	display:block;
+}
+
+ 
+.article-body p{
+	font-size:1.2em;
+	line-height:1.4em;
+	height:inherit;
+	width:inherit;
+	text-overflow:inherit;
+	overflow:inherit;
+}
+
+
+/* Form fields, general styles first. */
+button,
+input,
+textarea {
+	border: 2px solid #d4d0ba;
+	font-family: inherit;
+	padding: 5px;
+}
+
+input,
+textarea {
+	border: 1px solid #ddd;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	font-weight: 300;
+	color: #888;
+	height: 40px;
+	max-width: 100%!important;
+	padding: 0 10px;
+}
+
+textarea {
+	height: auto;
+	max-width: 100%!important;
+	padding: 24px;
+}
+
+input:focus,
+textarea:focus {
+	background: #fffef4;
+}
+
+/* Buttons */
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+	background: transparent;
+	border-radius: 0;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	height: 40px;
+	line-height: 40px;
+	margin: 40px 0 0 0;
+	padding: 0 40px;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+input[type="reset"]:active {
+	border-color: #34373b;
+	color: #34373b;
+}
+
+.post-password-required input[type="submit"] {
+	vertical-align: bottom;
+}
+
+.post-password-required input[type="submit"]:active {
+	padding: 5px 24px 6px;
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+	color: #7d7b6d;
+}
+
+:-moz-placeholder {
+	color: #7d7b6d;
+}
+
+::-moz-placeholder {
+	color: #7d7b6d;
+}
+
+:-ms-input-placeholder {
+	color: #7d7b6d;
+}
+
+.article-inner p{
+}
+.article-inner a:link{
+	text-decoration: none;
+}
+
+.article-body{
+	padding-left:inherit;
+	margin-top:inherit;
+}
+
+.comments-area{
+	margin-left:15%;
+	margin-bottom:100px;
+}
+
+.comments-area p{
+	margin-bottom:20px;
+}
+
+.other-comments
+{
+	width:50%;
+	margin-left:15%;
+	font-size:1.3em;
+	margin-bottom:3em;
+}
+
+h6.commenter{
+	font-weight:bold;
+}
+h6.date{
+	float:right;
+	font-size:0.7em;
+}
+h6.comments{
+	width:60%;
+}
+.divider-for-comments{
+	border:#c7d0d5 dotted 1px;
+}
+
+footer{
+	text-align: center;
+}
+ 
+.bdsharebuttonbox{
+	margin-left:34%;
+}
+/*end of header*/

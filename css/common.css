@@ -1,0 +1,296 @@
+/*css reset*/
+* {
+       vertical-align: baseline;
+       font-weight: inherit;
+       font-family: inherit;
+       font-style: inherit;
+       font-size: 100%;
+       outline: 0;
+       padding: 0;
+       margin: 0;
+       border: 0;
+}
+
+body{
+	background-color: #f5f5f5;
+	font-family: Lato,"Microsoft Jhenghei","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+	font-size:14px;
+	color:#8da7bb;
+	font-smoothing:antialiased;
+	-webkit-font-smoothing: antialiased;
+}
+
+ul li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color:#93B1C6;
+}
+
+a:link,a:visited{
+	color:#93B1C6;
+}
+
+a:hover{
+	color:#FF7148;
+}
+
+
+
+img.profile {
+	max-width: 120px;
+	margin-top: 50px;
+	-webkit-transition: 500ms;
+	-moz-transition: 500ms;
+	margin-bottom: 10px;
+	transition: 500ms;
+	border-radius:100px;
+	-moz-border-radius:100px;
+	-webkit-border-radius: 100px;
+	-webkit-box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.7), 0px 0px 30px 8px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.7), 0px 0px 30px 8px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.7), 0px 0px 30px 8px rgba(0, 0, 0, 0.25);
+}
+img.profile:hover {
+	-webkit-animation: profile-img-hover 1000ms ease-out 100ms infinite forwards;
+	cursor: -webkit-grab;
+}
+img.profile:active {
+	-webkit-animation: profile-img-active 500ms linear 0 infinite forwards;
+}
+@-webkit-keyframes profile-img-hover {
+	0% {
+		-webkit-transform: rotate(0);
+	}
+	23% { 
+		-webkit-transform: rotate(18deg);
+	}
+	25% { 
+		-webkit-transform: rotate(20deg);
+	}
+	50% { 
+		-webkit-transform: rotate(0);
+	}
+	73% { 
+		-webkit-transform: rotate(-18deg);
+	}
+	75% { 
+		-webkit-transform: rotate(-20deg);
+	}
+	100% { 
+		-webkit-transform: rotate(0);
+	}
+}
+@-webkit-keyframes profile-img-active {
+	0% {
+		-webkit-transform: rotate(0);
+	}
+	100% { 
+		-webkit-transform: rotate(365deg);
+	}
+}
+
+
+/*header*/
+#header{
+	background-color: #c6d0d1;
+	height: 343px;
+	margin-bottom: 70px;
+}
+
+/*header*/
+#header ul{
+	font-size:1.2em;
+	word-spacing:10px;
+	list-style: none;
+	margin-left: 43%;
+	margin-top: 5%;
+}
+
+#header a:link,#header a:visited{
+	text-decoration: none;
+	color:#fff;
+}
+
+#header a:hover{
+	color:#FF7148;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+#banner img{
+	position: relative;
+	margin-left: 35%;
+	margin-top: 7%;
+}
+
+
+#header ul li{
+	display: inline;
+}
+/*article*/
+#article-catalog{
+	margin-bottom: 100px;
+}
+ 
+#profile{
+	text-align: center;
+	margin-bottom: 40px;
+	display:block;
+}
+
+#article-catalog{
+}
+
+a.article-more-link {
+	text-align: center;
+}
+
+a:hover.article-more-link {
+	
+}
+
+
+h1.catalog{
+	font-size:1.5em;
+	color:#93B1C6;
+}
+
+aside{
+	float: right;
+	margin-left: 100px;
+	margin-right: 100px;
+	display:block;
+}
+
+.article-header{
+	display:inline;
+}
+
+.article-inner{
+	padding-left:100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.article-inner h1{
+	font-size:2.3em;
+	width: 250px;
+	overflow: visible;
+	font-weight:500;
+}
+
+.article-inner p{
+}
+.article-inner a:link{
+	text-decoration: none;
+}
+.article-inner a:hover{
+	color:#FF7148;
+}
+.article-body{
+	margin-top:-50px;
+	padding-left:300px;
+	width: 400px;
+}
+
+.article-body p{
+	font-size:1.2em;
+	line-height:1.4em;
+	height:4.2em;
+	width:600px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+
+.article-body em{
+	font-weight:bold;
+	background-color:#93b1c6;
+	display:block;
+	margin-top:1em;
+	padding:1.5em 1.5em;
+	color:#F5F5F5;
+}
+
+.comments-area{
+	margin-left:35%;
+	display:block;
+	margin-bottom:100px;
+}
+
+.comments-area p{
+	margin-bottom:20px;
+}
+
+footer{
+	text-align: center;
+	margin-top:100px;
+}
+
+img[title="sheilaCat"]{
+	max-width:20px;
+	border-radius:100px;
+}
+
+a:hover{
+	color:#FF7148;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	}
+ 
+/*end of header*/
+
+/*响应式设计部分*/
+@media (max-width:1068px){
+aside{
+	display:none;
+	}
+.article-body{
+	padding-left:0;
+	padding-top:4em;
+	}
+}
+
+@media (max-width:360px){
+#banner img{
+	margin-left:0;
+	max-width:360px;
+	margin-top:3em;
+	}
+}
+
+@media (min-width:100px) and (max-width:330px){
+#banner img{
+	margin-left:3%;
+	max-width:300px;
+	margin-top:3em;
+	}
+#header ul{
+	margin-left:30%;
+	}
+
+aside{
+	display:none;
+	}
+ 
+
+#header{
+	height:220px;
+	margin-bottom:0;
+	}
+
+.article-inner{
+	margin-top:2em;
+	padding-left:2em;
+	}
+
+.article-body{
+	padding-left:0;
+	padding-top:4em;
+	}
+}
